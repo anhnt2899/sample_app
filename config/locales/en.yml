@@ -1,0 +1,64 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  static_page:
+    home: 
+      title:  "I18n_app"
+      hello:  "Hello, have a nice day"
+      profile:  "Profile"
+      phone:  "Phone"
+      address:  "Address"
+      full_name:  "Full name"
+      ror:  "Ruby on rails"
+      rort: "Ruby on rails tutorial"
+      wts : "Welcome to the Sample App"
+  layouts:
+    header:
+      h: "Home"
+      he: "Help"
+      lg: "Login"
+      sp : "SAMPLE APP"
+    footer:
+      ab: "About"
+      ct: "Contacts"
+      n: "News"
+      git: "Github"
+  user:
+     new:
+      title:  "I18n_app"
+      hello:  "Hello, have a nice day"
+      profile:  "Profile"
+      phone:  "Phone"
+      address:  "Address"
+      full_name:  "Full name"
+      ror:  "Ruby on rails"
+  
