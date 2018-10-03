@@ -1,0 +1,4 @@
+enabled_locales: ["en"]
+static_page:
+  mainpage: "http://www.railstutorial.org/"
+  github: "https://github.com/"
