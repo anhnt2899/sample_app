@@ -1,0 +1,10 @@
+vi: 
+  static_page:
+    home:
+      sign_up: "Đăng kí ngay!!"
+      home_title: "Trang chủ"
+      sample_app: "Sample App"
+      this_is: "Đây là trang chủ cho"
+      ruby_on: "Ruby on rails Tutorials"
+      samapp: "ứng dụng sample."
+      welcome_samapp: "Chào mừng đến với ứng dụng sample"
