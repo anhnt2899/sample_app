@@ -1,9 +1,0 @@
-enabled_locales: ["en"]
-static_page:
-  mainpage: "http://www.railstutorial.org/"
-  github: "https://github.com/"
-  contact: "https://www.railstutorial.org/#contact"
-  amazon: "https://s3-us-west-2.amazonaws.com/learnenough/kitten.jpg"
-users:
-  length: 50
-  max_length: 255
