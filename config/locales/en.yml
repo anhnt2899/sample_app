@@ -8,22 +8,30 @@ en:
       phone:  "Phone"
       address:  "Address"
       full_name:  "Full name"
-      ror:  "Ruby on rails"
-      rort: "Ruby on rails tutorial"
-      wts : "Welcome to the Sample App"
+      ruby:  "Ruby on rails"
+      rubyt: "Ruby on rails tutorial"
+      welcome : "Welcome to the Sample App"
     contact:
       title: "contact page"
+      contact: "Contact"
+    help:
+      help: "Help"
+    about:
+      about: "About"
   layouts:
     header:
-      h: "Home"
-      he: "Help"
-      lg: "Login"
-      sp : "SAMPLE APP"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+      sample : "SAMPLE APP"
+      samplea: "sample app"
     footer:
-      ab: "About"
-      ct: "Contacts"
-      n: "News"
+      about: "About"
+      contact: "Contacts"
+      new: "News"
       git: "Github"
+      ruby: "Ruby on Rails Tutorial"
+      micheal: "Micheal Hart"
   user:
      new:
       title:  "I18n_app"
@@ -32,5 +40,21 @@ en:
       phone:  "Phone"
       address:  "Address"
       full_name:  "Full name"
-      ror:  "Ruby on rails"
-  
+      ruby:  "Ruby on rails"
+      create: "Create my account"
+  shared:
+    error_messages:
+      form: "The form contains"
+  users:
+    new:
+      sign: "Sign Up"
+      create: "Create my account"
+      name: "name"
+      email: "email"
+      password: "password"
+      passwordc: "password confirm"
+    create:
+      welcome: "Welcome to the Sample App!"
+    show: 
+      usernotfound: "User not found!!!"
+      

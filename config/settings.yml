@@ -7,3 +7,6 @@ static_page:
 users:
   length: 50
   max_length: 255
+helpers:
+  users:
+    img_length: 80
