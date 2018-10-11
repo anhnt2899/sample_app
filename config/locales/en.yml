@@ -27,6 +27,7 @@ en:
       password: "password"
       signup: "Sign up now!!!"
       new: "New user?"
+      remember: "Remember me"
     create:
       danger: "Invalid email/password combination!"
   layouts:
