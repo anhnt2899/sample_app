@@ -27,6 +27,7 @@ en:
       password: "password"
       signup: "Sign up now!!!"
       new: "New user?"
+      remember: "Remember me"
     create:
       danger: "Invalid email/password combination!"
   layouts:
@@ -39,6 +40,9 @@ en:
       samplea: "sample app"
       logout: "Logout"
       account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      users: "Users"
     footer:
       about: "About"
       contact: "Contacts"
@@ -71,5 +75,23 @@ en:
       welcome: "Welcome to the Sample App!"
     show: 
       usernotfound: "User not found!!!" 
-      
-      
+    update:
+      updated: "Profile updated"
+    logged_in_user:
+      danger: "Please log in."  
+    form:
+      sign: "Sign Up"
+      create: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      passwordc: "Password confirm"
+      change: "Change"
+      save: "Save changes"
+    index: 
+      all: "All users"
+    users:
+      delete: "delete"
+      sure: "You sure?"
+    destroy:
+      success: "User deleted"

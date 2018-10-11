@@ -7,6 +7,10 @@ static_page:
 users:
   length: 50
   max_length: 255
+  avatar: "http://gravatar.com/emails"
+  per_page: 10
+controller:
+  per_page: 10
 helpers:
   users:
     img_length: 80
