@@ -7,6 +7,7 @@ class User < ApplicationRecord
     has_secure_password
     validates :password, presence:true, length: {maximum: Settings.users.length}
     scope :select_user, -> {select :id, :email, :name}
+    scope :order_by, -> {order("name DESC")}
     class << self
       def digest string
         cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
